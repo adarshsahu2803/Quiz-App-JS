@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:wght@500&display=swap');
+
+.main{
+    background: url(/images/top_view_table.jpg.crdownload) center center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    margin: 2rem;
+    padding: 10px;
+    width: 40%;
+    background-color: #e2e0e2;
+    border-radius: 4px;
+}
+.row{
+    width: 100%;
+    margin: 20px;
+    margin-left: 0px;
+}
+.btn{
+    width: 100%;
+    padding: 8px;
+    background-color: #a0a0a0;
+    border: none;
+    border-radius: 3px; 
+    font-size: medium;
+
+}
